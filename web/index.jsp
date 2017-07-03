@@ -8,6 +8,7 @@ Author     : UPEU
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="Expires" content="0" />
@@ -43,11 +44,11 @@ Author     : UPEU
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span> 
                         </button>
-                        <a target="_blank" href="#" class="navbar-brand"><img id="imagen-piu" src="imagenes/pihuicho-logo.png" class="img-rounded" alt="x" /></a>
+                        <a target="_blank" href="#" class="navbar-brand"><img id="imagen-piu" src="imagenes/pihuicho-logo.png" class="img-rounded" alt="x" style="width: 200px; height: 200px" /></a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav" id="navegador">
-                            <li><a href="#"><img id="img" src="imagenes/home.png" class="img-rounded" alt="x" style="width: 20%; height: 20%"/>Inicio</a></li>
+                            <li><a href="#"><img id="img" src="imagenes/home.png" class="img-rounded" alt="x"/>Inicio</a></li>
                             <li class="dropdown" id="menureportli">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img id="img" src="imagenes/reportes.png" class="img-rounded" alt="x" />Libros
                                     <span class="caret"></span>
